@@ -4,10 +4,10 @@ gsap.utils.toArray(".comparisonSection").forEach(section => {
 				trigger: section,
 				start: "center center",
         // makes the height of the scrolling (while pinning) match the width, thus the speed remains constant (vertical/horizontal)
-				end: () => "+=" + section.offsetWidth, 
+				end: () => "+=" + section.offsetWidth - 150, 
 				scrub: true,
 				pin: true,
-        anticipatePin: 1
+               anticipatePin: 1
 			},
 			defaults: {ease: "none"}
 		});
