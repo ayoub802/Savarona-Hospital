@@ -3307,6 +3307,11 @@ blockquote {
   color: #03192c;
   text-transform: uppercase;
 }
+
+.brand_img {
+  width: 200px;
+  height: 200px;
+}
 .brand-link-block:hover {
   background-color: #927e70;
   color: #faf7f5;
@@ -15735,6 +15740,7 @@ blockquote {
     align-items: center;
   }
 }
+
 @media screen and (max-width: 767px) {
   body {
     font-size: 11px;
@@ -15806,6 +15812,11 @@ blockquote {
   .heading.is-header-3-title-4 {
     font-size: 3.6em;
     line-height: 1.2em;
+  }
+
+  .brand_img{
+    width: 150px;
+    height: 150px;
   }
   .content-grid-1 {
     -ms-grid-columns: 1fr;
@@ -16648,6 +16659,7 @@ blockquote {
     line-height: 1.6em;
   }
 }
+
 @media screen and (max-width: 479px) {
   ol {
     padding-left: 2.2em;
@@ -16766,6 +16778,11 @@ blockquote {
   .nav-link {
     min-height: 4em;
     font-size: 1.1em;
+  }
+
+  .brand_img{
+    width: 100px;
+    height: 100px;
   }
   .brand-slogan {
     font-size: 0.7em;
