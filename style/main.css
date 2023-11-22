@@ -10697,6 +10697,18 @@ blockquote {
   letter-spacing: 0.3em;
   text-indent: 0.3em;
 }
+.tab-1-link.w--current .icon_white{
+  display: block;
+}
+.tab-1-link.w--current .icon_black{
+  display: none;
+}
+.tab-1-link .icon_white{
+  display: none;
+}
+.tab-1-link .icon_black{
+  display: block;
+}
 .tab-1-link-text {
   font-size: 0.9em;
   line-height: 1.1em;
